@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.conatiainer_main {
+  background: linear-gradient(25deg, #452728, #121421);
+}
+
+#whitebg {
+  background: #9b9b9b !important;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  margin: 0.8rem;
+  color: #7e7f8e;
+  font-weight: 600;
+}
+.coantiner_nav {
+  display: grid;
+  place-items: center;
+}
+nav {
+  display: grid;
+  place-items: center;
+  width: 60%;
+  background-color: #202233;
+  border: 1px solid #4d4b56;
+  border-radius: 2.4rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.hero_container img {
+  border-radius: 50%;
+  background: linear-gradient(45deg, #422627, #171621);
+  box-shadow: 10px 10px 10px #231a23;
+  height: 80%;
+  width: 80%;
+  max-width: 20rem;
+  margin: 3rem 0rem;
+}
+
+.hero_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 792px;
+  width: 90%;
+  margin: 0 auto;
+}
+.hero_container h1,
+h2 {
+  color: #e9e9ea;
+  font-weight: 600;
+  margin: 1rem 0;
+  text-align: center;
+}
+.hero_container p {
+  color: #e9e9ea;
+  font-weight: 500;
+  text-align: center;
+}
+
+.btn_div Button {
+  margin: 2rem 1rem;
+}
+
+#stack_icon {
+  float: right;
+  margin: 1rem;
+  display: none;
+}
+
+.vertical_left_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  left: 0.3rem;
+  height: 50%;
+}
+.vertical_left_div hr {
+  rotate: 180deg;
+  height: 200px;
+  border: 1px solid #4d4b56;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  nav {
+    width: 94%;
+  }
+}
+
+@media (max-width: 500px) {
+  #stack_icon {
+    display: block;
+  }
+  .coantiner_nav {
+    display: grid;
+    place-items: center;
+    width: 150px;
+    margin: 0 auto;
+    display: none;
+  }
+
+  #show_Sidebar {
+    display: block;
+    position: absolute;
+
+    right: 75px;
+  }
+
+  /* .coantiner_nav {
+    display: block;
+  } */
+
+  nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  nav {
+    width: 94%;
+  }
+
+  .btn_div {
+    display: grid;
+  }
+
+  li {
+    list-style: none;
+    margin: 0.3rem;
+  }
+
+  .toggle {
+    margin: 0 !important;
+  }
+}
