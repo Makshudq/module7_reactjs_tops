@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  place-items: center;
+}
+.inner_container {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  max-width: 792px;
+  padding: 1.5rem;
+  flex-direction: column;
+  background-color: #97a0ef;
+}
+
+.counter_div {
+  margin: 2rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgb(74, 74, 74);
+}
+
+.btn_grp button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border-radius: 0.3rem;
+  border: none;
+}
